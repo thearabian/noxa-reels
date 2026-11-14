@@ -1,0 +1,13 @@
+{
+  "_readme": "Posting queue for @noxa.ww. Only items with status 'approved' are posted, at or after post_at (ISO 8601 with offset). The auto-poster sets status to 'posted' and records media_id.",
+  "items": [
+    {
+      "id": "2026-11-14_big-boss",
+      "video": "reels/2026-11-14_big-boss.mp4",
+      "caption": "(already posted manually)",
+      "post_at": "2026-11-14T18:54:00+03:00",
+      "status": "posted",
+      "media_id": "18131586223841567"
+    }
+  ]
+}
