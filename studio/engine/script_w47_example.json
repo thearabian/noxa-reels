@@ -1,0 +1,31 @@
+{
+ "callcentre": [
+  ["a","Ten agents. Ten salaries."],
+  ["b","And your customers are still on hold."],
+  ["c","Our AI agent picks up every call. Instantly. Even at three a.m."],
+  ["d","No hold music. No missed sales."],
+  ["e","Comment AUTOMATE, and we'll show you how."]
+ ],
+ "3am": [
+  ["a","It's three a.m. A customer is ready to buy."],
+  ["b","Your team? Asleep."],
+  ["c","Our AI? Already replied, answered every question, and closed the order."],
+  ["d","You wake up to money."],
+  ["e","Comment AUTOMATE. We'll build yours."]
+ ],
+ "website": [
+  ["a","Three signs your website is losing you customers."],
+  ["b","One. It takes forever to load."],
+  ["c","Two. It looks like every other template."],
+  ["d","Three. Nobody knows where to click."],
+  ["e","We build websites people actually feel."],
+  ["f","Save this, and send it to someone who needs it."]
+ ],
+ "pickone": [
+  ["a","If AI took one job off your plate tomorrow, which one?"],
+  ["b","One. Replying to customers."],
+  ["c","Two. Chasing follow-ups."],
+  ["d","Three. Booking appointments."],
+  ["e","Comment your number. We'll tell you exactly how we'd automate it."]
+ ]
+}
