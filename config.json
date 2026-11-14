@@ -2,8 +2,12 @@
   "instagram_account_id": "17841480262158958",
   "pages_base_url": "https://thearabian.github.io/noxa-reels/",
   "auto_reply": {
-    "enabled": false,
-    "keywords": ["AUTOMATE", "BUILD"],
-    "approved_reply": null
+    "enabled": true,
+    "keywords": [
+      "AUTOMATE",
+      "BUILD"
+    ],
+    "approved_reply": "Love it 🙌 We'll reach out to you shortly with how this would work for your business.",
+    "approved_by": "user in chat 2026-11-14"
   }
 }
