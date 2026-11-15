@@ -17,6 +17,15 @@ How a new weekly batch of reels for @noxa.ww is made. Read this fully before sta
 - Formats that fit: POV/story (3 AM), side-by-side comparison (call centre vs AI), "3 signs…" save-able tips, "which one? comment 1/2/3" engagement, real client work montage.
 - Use local details (JD, Amman). Never invent fake client screens, fake stats or fake testimonials.
 
+## Trends to ride (researched 2026-11-15; refresh monthly)
+Licensed trending songs (Mariah Carey "All I Want for Christmas", Tate McRae "Housewife", JADE "Angel of My Dreams") can't be added through the API — keep our original beats; borrow the FORMATS instead:
+- **"5 stages of …" mood montage** (hyped → overwhelmed): e.g. "5 stages of a business owner on Black Friday" ending with the AI agent calming it all down.
+- **"AI will replace you" comedy**, flipped: AI failing at human jobs is trending — Noxa's twist is "it won't replace you, it replaces your boring tasks".
+- **Start-to-finish timestamp videos** (appointment-style): "One customer order, 3:07am → 3:09am, handled end-to-end by AI" with on-screen timestamps.
+- **Input → output / before → after demos** (30–60 s is fine for demos): a messy DM → a booked order; an old site → the redesign.
+- **Seasonal hooks:** Black Friday / White Friday (27 Nov 2026), year-end planning ("2027 is the year you stop answering DMs at midnight").
+- Authentic over generic: keep real client work, real UI moments, local details (JD, Amman); avoid generic AI-looking stock imagery.
+
 ## Pipeline (all paths relative to this `studio/` folder; working copies go in a temp dir)
 1. Python venv with `playwright edge-tts` (uses the installed Microsoft Edge: `channel="msedge"`, no browser download). ffmpeg/ffprobe are on PATH. Use `--no-cache-dir` — disk is tight.
 2. Write `script.json` (see `engine/script_w47_example.json`): 4 reels × 4–6 lines each.
