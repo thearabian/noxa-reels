@@ -27,7 +27,7 @@ How a new weekly batch of reels for @noxa.ww is made. Read this fully before sta
 7. `render_batch.py <batchdir> <reel> video <repo>/reels/<YYYY>-<MM>-w<week>_<reel>.mp4`. Required encode (Instagram rejected level 5.0): H.264 High, **level 4.0**, yuv420p tv range, 30 fps, AAC stereo 48 kHz, faststart, loudnorm -14 LUFS. Verify with ffprobe.
 
 ## Queue + approval (never skip)
-- Add each reel to `../queue.json` with a caption (hook line, 1–2 value lines, comment CTA, 6–8 hashtags incl. #jordan #noxa), `thumb_offset`, a `post_at` (ISO, +03:00; Jordan evenings 19:00 or Sat 13:00 work well; space posts ≥1 day apart unless the user says otherwise) and **`"status": "pending_review"`**.
-- Commit + push. GitHub Pages serves `https://thearabian.github.io/noxa-reels/reels/<file>`; check it returns `video/mp4`.
-- Only the user can approve. A post becomes `"approved"` only after they say so in chat. The auto-poster task posts only `approved` items.
+- Add each reel to `../queue.json` with a caption (hook line, 1–2 value lines, comment CTA, 6–8 hashtags incl. #jordan #noxa), `thumb_offset` and a `post_at` (ISO, +03:00).
+- **Standing user instruction (2026-11-15):** always 4 reels per batch, auto-posted with captions 30 minutes apart. Batches that pass the safety check in the batch-maker task are queued `"approved"` for the next day at 19:05, 19:35, 20:05, 20:35 Jordan time (these match the 15-minute auto-poster's run times). Anything that fails the check (giveaways, prizes or prices, real people or other brands, invented stats or results, render problems) is queued `"pending_review"` for the user to approve in chat.
+- Commit + push. GitHub Pages serves `https://thearabian.github.io/noxa-reels/reels/<file>`; check it returns `video/mp4`. The auto-poster posts only `approved` items.
 - Giveaways: always include "not sponsored, endorsed or administered by Instagram" (and any named brand) in the caption, with how to enter and when winners are picked.
