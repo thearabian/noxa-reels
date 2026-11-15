@@ -118,9 +118,21 @@ CUES = {
    ("stamp", wt(S["c"], "two")), ("buzz", wt(S["c"], "template")), ("stamp", wt(S["d"], "three")), ("boing", wt(S["d"], "click")),
    ("whoosh", S["e"]["start"] - .3), ("sparkle", wt(S["e"], "feel")), ("pop", wt(S["f"], "save")), ("whoosh", wt(S["f"], "send"))],
  "pickone": lambda S: [("riser", 0.0), ("ding", wt(S["a"], "one")), ("stamp", S["b"]["start"]), ("stamp", S["c"]["start"]), ("stamp", S["d"]["start"]), ("pop", wt(S["e"], "comments")), ("riser", S["f"]["start"] - .8), ("chaching", wt(S["f"], "gift")), ("sparkle", wt(S["f"], "gift") + .15), ("stamp", wt(S["f"], "three")), ("ding", wt(S["f"], "key")), ("pop", wt(S["f"], "thousand")), ("stamp", wt(S["f"], "noxa")), ("ping", wt(S["f"], "twentyfour"))],
+ # batch w48
+ "whatsapp": lambda S: [("msg", .0), ("msg", .12), ("msg", .24), ("msg", .36), ("ping", wt(S["a"], "customer")), ("tick", wt(S["b"], "three")), ("buzz", wt(S["b"], "competitor")),
+   ("whoosh", S["c"]["start"] - .3), ("msg", wt(S["c"], "replies")), ("msg", wt(S["c"], "all")), ("msg", wt(S["c"], "arabic")), ("msg", wt(S["c"], "english")), ("ding", wt(S["c"], "seconds")),
+   ("pop", wt(S["d"], "prices")), ("pop", wt(S["d"], "stock")), ("pop", wt(S["d"], "delivery")), ("chaching", wt(S["d"], "booked")), ("riser", S["e"]["start"] - .8), ("pop", wt(S["e"], "automate"))],
+ "employee": lambda S: [("stamp", .0), ("ding", wt(S["a"], "employee")), ("sparkle", wt(S["a"], "employee") + .1), ("stamp", wt(S["b"], "seven")), ("tick", wt(S["b"], "sick")),
+   ("pop", wt(S["c"], "answers")), ("pop", wt(S["c"], "books")), ("pop", wt(S["c"], "follows")), ("stamp", wt(S["d"], "overtime")), ("stamp", wt(S["d"], "holidays")), ("stamp", wt(S["d"], "drama")),
+   ("riser", S["e"]["start"] - .8), ("pop", wt(S["e"], "automate"))],
+ "hours": lambda S: [("riser", 0.0), ("tick", wt(S["a"], "hours")), ("ding", wt(S["a"], "admin")), ("stamp", S["b"]["start"]), ("click", wt(S["b"], "spreadsheets")),
+   ("stamp", S["c"]["start"]), ("msg", wt(S["c"], "five")), ("stamp", S["d"]["start"]), ("chaching", wt(S["d"], "payments")), ("riser", S["e"]["start"] - .8), ("pop", wt(S["e"], "number")), ("sparkle", wt(S["e"], "automate"))],
+ "glowup": lambda S: [("whoosh", 0.0), ("stamp", wt(S["a"], "brand")), ("riser", S["b"]["start"] - .6), ("sparkle", wt(S["b"], "noxa")), ("whoosh", wt(S["c"], "jado")), ("whoosh", wt(S["c"], "genzy")),
+   ("whoosh", wt(S["c"], "yalla")), ("ding", wt(S["d"], "remember")), ("pop", wt(S["d"], "use")), ("riser", S["e"]["start"] - .8), ("pop", wt(S["e"], "build"))],
 }
 
-SEEDS = {"callcentre": (1, 57), "3am": (2, 60), "website": (3, 62), "pickone": (4, 59)}
+SEEDS = {"callcentre": (1, 57), "3am": (2, 60), "website": (3, 62), "pickone": (4, 59),
+         "whatsapp": (5, 58), "employee": (6, 61), "hours": (7, 57), "glowup": (8, 62)}
 lib = sfx_lib()
 ONLY=sys.argv[2:] or list(meta)
 for reel, lines in meta.items():
