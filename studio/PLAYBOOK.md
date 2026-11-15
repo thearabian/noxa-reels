@@ -17,6 +17,12 @@ How a new weekly batch of reels for @noxa.ww is made. Read this fully before sta
 - Formats that fit: POV/story (3 AM), side-by-side comparison (call centre vs AI), "3 signs…" save-able tips, "which one? comment 1/2/3" engagement, real client work montage.
 - Use local details (JD, Amman). Never invent fake client screens, fake stats or fake testimonials.
 
+## Hooks (from our own data, 2026-11-15 — small samples, re-check weekly)
+- Best: "Imagine you own the company…" scenario + moving money counter (Big Boss: 12.5% skip, 25 s avg watch) and the giveaway "which one?" question (22% skip).
+- Worst: text-heavy list headline on a static frame ("3 signs your website…": 73% skip, 3.8 s watch) and Reel 1's slow intro (73% skip).
+- Rules: first 1 s = motion + a single short line (≤7 words), second-person ("you/your"), a tension or a number, and the visual already moving at frame 0. Never open on a block of text. Voice starts in the first 0.2 s. Open loop: promise a payoff that only arrives at the end.
+- Hook bank: "Imagine your phone buzzes at 3am…" · "You're paying 10 salaries for this." · "This DM just cost you JD 500." · "Stop answering the same question 40 times a day." · "POV: your business runs while you sleep." · "Your competitor replied in 4 seconds. You took 4 hours." · "I asked AI to run a shop for 24 hours." · "Watch this order close itself." · "Nobody tells business owners this about websites…" · "This is what JD 0 in overtime looks like."
+
 ## Trends to ride (researched 2026-11-15; refresh monthly)
 Licensed trending songs (Mariah Carey "All I Want for Christmas", Tate McRae "Housewife", JADE "Angel of My Dreams") can't be added through the API — keep our original beats; borrow the FORMATS instead:
 - **"5 stages of …" mood montage** (hyped → overwhelmed): e.g. "5 stages of a business owner on Black Friday" ending with the AI agent calming it all down.
